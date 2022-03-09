@@ -14,9 +14,9 @@ arr2.push(4)
 // Copying an array
 
 let arr3 = [4, 5, 6];
-let arr4 = [...arr3];
-
-arr4.push(7);
+// let arr4 = [...arr3];
+// arr4.push(7);
+let arr4 = [...arr3, 7]; //Similary result as line 17 and 18 combine
 console.log("Third Array:", arr3);
 console.log("Fourth Array:", arr4);
 
